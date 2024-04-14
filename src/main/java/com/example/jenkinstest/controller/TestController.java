@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class TestController {
     @GetMapping("/test1")
     public Object test1(){
-        String str = "test666    " + LocalDateTime.now();
+        String str = "test888    " + LocalDateTime.now();
         System.out.println("test1被请求, " + str);
         return str;
     }
