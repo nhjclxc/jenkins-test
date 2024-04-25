@@ -22,7 +22,7 @@ public class TestController {
 
     @GetMapping("/test1")
     public Object test1(){
-        String str = "test1被请求,  " + LocalDateTime.now() + ",, port=" + port + ", appName = " + appName;
+        String str = "更新2,  " + LocalDateTime.now() + ",, port=" + port + ", appName = " + appName;
         System.out.println(str);
         return str;
     }
